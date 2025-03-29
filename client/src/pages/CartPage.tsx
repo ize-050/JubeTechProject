@@ -19,7 +19,7 @@ interface CartCourse {
   isSelected: boolean;
   slug: string;
 }
-
+//Card
 const CartPage = () => {
   const [cartItems, setCartItems] = useState<CartCourse[]>([]);
   const [loading, setLoading] = useState(true);
